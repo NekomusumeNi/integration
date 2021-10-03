@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="controlBlock">
+			<label for="m">Введите количество узлов: </label><input id="m" type="text" name=""><br>
+			<div id="vars">
+
+			</div>
+			<button onclick="NewtonCotes();Rectangle();Trapezoid();Simpson()">Посчитать</button>
+		</div>
+		<div class="resultBlock">
+			<div id="NewtonCotes">Формула Ньютона-Котеса:</div>
+			<div id="Rectangle">Формула Прямоугольника:</div>
+			<div id="Trapezoid">Формула Трапеции:</div>
+			<div id="Simpson">Формула Симпсона:</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
