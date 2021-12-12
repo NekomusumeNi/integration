@@ -8,19 +8,19 @@
 <body>
 	<div class="container">
 		<div class="controlBlock">
-			<label for="m">Введите количество узлов: </label><input id="m" type="text" name=""><br>
-			<div id="vars">
+			<label for="n">Введите количество уравнений: </label><input id="equation" type="text" name=""><br>
+			<label for="m">Введите количество неизвестных: </label><input id="unknown" type="text" name=""><br>
+			<div id="matrix">
 
 			</div>
-			<button onclick="NewtonCotes();Rectangle();Trapezoid();Simpson()">Посчитать</button>
+			<button onclick="getResult()">Посчитать</button>
 		</div>
-		<div class="resultBlock">
-			<div id="NewtonCotes">Формула Ньютона-Котеса:</div>
-			<div id="Rectangle">Формула Прямоугольника:</div>
-			<div id="Trapezoid">Формула Трапеции:</div>
-			<div id="Simpson">Формула Симпсона:</div>
+		<div class="resultBlock"> 
+			
 		</div>
 	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
+
 </body>
 </html>
